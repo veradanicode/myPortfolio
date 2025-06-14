@@ -5,20 +5,20 @@ import { motion } from "framer-motion";
 export default function Hero() {
 return (
     <main id='about' className="min-h-screen w-full bg-gradient-to-tr from-purple-100 via-white to-pink-50 text-gray-800 px-6 py-16 font-sans">
-      {/* Intro Section */}
+      
       <section className="max-w-4xl mx-auto text-center relative z-10">
         
-        {/* Floating Blobs */}
+        
       <div className="absolute w-80 h-80 bg-pink-400 rounded-full opacity-30 blur-3xl animate-float-blob -z-10 top-10 left-10"></div>
       <div className="absolute w-80 h-80 bg-purple-400 rounded-full opacity-30 blur-3xl animate-float-blob-reverse -z-10 bottom-10 right-10"></div>
-      {/* Profile Image */}
+     
       <img
         src={verapic}
         alt="Vera's Profile"
         className="w-48 h-48 rounded-full object-cover shadow-xl mb-6 border-4 border-white"
       />
       
-      {/* Headings */}
+      
        <motion.div
         initial={{ opacity: 0, x: 100 }}
         whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ return (
             <p className="text-lg text-gray-700 leading-relaxed">
             I'm <span className="font-semibold text-purple-600">Vera</span>, a passionate
             <span className="font-semibold text-pink-500"> Fullstack Developer</span> who loves building beautiful, functional,
-            and efficient applications. From crafting pixel-perfect frontend interfaces with React and TailwindCSS to designing powerful backend systems with Node.js, MongoDB, and Express, I strive to create seamless digital experiences.
+            and efficient applications. From crafting pixel-perfect frontend interfaces to designing powerful backend systems with Node.js, MongoDB, and Express, I strive to create seamless digital experiences.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed mt-4">
             I'm constantly learning, solving problems, and pushing myself to build projects that not only work — but wow. 🚀
