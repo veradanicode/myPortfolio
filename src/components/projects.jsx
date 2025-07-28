@@ -2,7 +2,7 @@ import React from "react";
 import Portfoliopic from "../assets/portfoliopic.png"
 import athenapic from "../assets/athenapic.png"
 import ecommerce from "../assets/ecommerce.png"
-import WealthIsSimplee from "../assets/wealthissimple.png"
+import SimpleInvest from "../assets/simpleinvest.png"
 
 const projects = [
   {
@@ -30,7 +30,7 @@ const projects = [
     title: "SimpleInvest-A Modern Investment Web UI",
     description:
       "SimpleInvest is a fully responsive, React-based frontend investment UI inspired by modern fintech platforms. It features a clean landing page, dynamic layout adjustments for small screens, and a stylish mobile-friendly navbar with hamburger menu.",
-    image:WealthIsSimplee,
+    image:SimpleInvest,
     link: "https://simpleinvest.netlify.app/",
   }
 ];
