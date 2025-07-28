@@ -27,11 +27,11 @@ const projects = [
     link: "https://veradanicodeportfolio.netlify.app/",
   },
    {
-    title: "WealthIsSimplee-A Modern Investment Web UI",
+    title: "SimpleInvest-A Modern Investment Web UI",
     description:
-      "WealthIsSimplee is a fully responsive, React-based frontend investment UI inspired by modern fintech platforms. It features a clean landing page, dynamic layout adjustments for small screens, and a stylish mobile-friendly navbar with hamburger menu. This project highlights my ability to translate real-world fintech design into functional, performant code using React and CSS.",
+      "SimpleInvest is a fully responsive, React-based frontend investment UI inspired by modern fintech platforms. It features a clean landing page, dynamic layout adjustments for small screens, and a stylish mobile-friendly navbar with hamburger menu.",
     image:WealthIsSimplee,
-    link: "https://wealthissimplee.netlify.app/",
+    link: "https://simpleinvest.netlify.app/",
   }
 ];
 
