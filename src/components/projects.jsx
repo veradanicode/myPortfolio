@@ -2,6 +2,8 @@ import React from "react";
 import Portfoliopic from "../assets/portfoliopic.png"
 import athenapic from "../assets/athenapic.png"
 import ecommerce from "../assets/ecommerce.png"
+import WealthIsSimplee from "../assets/wealthissimple.png"
+
 const projects = [
   {
     title: "Athena – Educational AI App",
@@ -22,8 +24,15 @@ const projects = [
     description:
       "This portfolio site! Built with React and TailwindCSS, showcasing my fullstack creativity.",
     image:Portfoliopic,
-    link: "#",
+    link: "https://veradanicodeportfolio.netlify.app/",
   },
+   {
+    title: "WealthIsSimplee-A Modern Investment Web UI",
+    description:
+      "WealthIsSimplee is a fully responsive, React-based frontend investment UI inspired by modern fintech platforms. It features a clean landing page, dynamic layout adjustments for small screens, and a stylish mobile-friendly navbar with hamburger menu. This project highlights my ability to translate real-world fintech design into functional, performant code using React and CSS.",
+    image:WealthIsSimplee,
+    link: "https://wealthissimplee.netlify.app/",
+  }
 ];
 
 

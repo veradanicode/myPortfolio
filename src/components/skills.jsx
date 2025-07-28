@@ -1,6 +1,6 @@
 import React from "react";
 
-// Import your logos
+
 import htmllogo from "../assets/htmllogo.jpg";
 import csslogo from "../assets/csslogo.png";
 import jsLogo from "../assets/jsLogo.png";
