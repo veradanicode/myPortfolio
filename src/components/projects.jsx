@@ -3,6 +3,7 @@ import Portfoliopic from "../assets/portfoliopic.png"
 import athenapic from "../assets/athenapic.png"
 import ecommerce from "../assets/ecommerce.png"
 import SimpleInvest from "../assets/simpleinvest.png"
+import Resumix from '../assets/resumix.png'
 
 const projects = [
   {
@@ -32,6 +33,13 @@ const projects = [
       "SimpleInvest is a fully responsive, React-based frontend investment UI inspired by modern fintech platforms. It features a clean landing page, dynamic layout adjustments for small screens, and a stylish mobile-friendly navbar with hamburger menu.",
     image:SimpleInvest,
     link: "https://modexinvestui.netlify.app/",
+  },
+  {
+    title: "Resumix — Your One-Click Resume Builder",
+    description:
+      "Resumix is a minimalist, no-signup resume builder designed to simplify the resume creation process.",
+    image:Resumix,
+    link: "https://myresumix.netlify.app/",
   }
 ];
 
