@@ -43,6 +43,19 @@ return (
             <p className="text-lg text-gray-700 leading-relaxed mt-4">
             I'm constantly learning, solving problems, and pushing myself to build projects that not only work — but wow. 🚀
             </p>
+            <div className='flex space-x-4'>
+                <a href="#contact">
+                  <button className="w-[25vh] mt-3 bg-purple-600 text-white py-2 rounded-full hover:bg-purple-700 transition">
+                    Let's Talk
+                  </button>
+              </a>
+              <a href= '/resume.html'  target="_blank" rel="noopener noreferrer">
+                  <button className="w-[25vh] mt-3 bg-pink-600 text-white py-2 rounded-full hover:bg-pink-700 transition">
+                    Download Resume
+                  </button>
+              </a>
+            </div>
+
       </motion.div>
         {/* <div className="mt-6 flex justify-center gap-4">
           <a

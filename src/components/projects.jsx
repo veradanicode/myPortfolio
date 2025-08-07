@@ -54,7 +54,7 @@ function Projects() {
           {projects.map((project, index) => (
          <div
             key={index}
-            className="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition duration-300"
+            className="bg-white shadow-md rounded-2xl  overflow-hidden hover:shadow-xl transition duration-300"
             >
             <img
                 src={project.image}
