@@ -1,7 +1,8 @@
 import React from 'react';
 import verapic from "../assets/verapic.png"
 import { motion } from "framer-motion";
-import Resume_URL from "../assets/Vera_Daniel_Resume.pdf";
+const resumeUrl = import.meta.env.VITE_RESUME_URL;
+
 
 export default function Hero() {
 return (
@@ -51,7 +52,7 @@ return (
                   </button>
               </a>
               <a
-                href={Resume_URL}
+                href={resumeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn"
