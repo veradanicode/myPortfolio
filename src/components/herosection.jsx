@@ -1,6 +1,7 @@
 import React from 'react';
 import verapic from "../assets/verapic.png"
 import { motion } from "framer-motion";
+import Resume_URL from "../assets/Vera_Daniel_Resume.pdf";
 
 export default function Hero() {
 return (
@@ -49,7 +50,12 @@ return (
                     Let's Talk
                   </button>
               </a>
-              <a href= '/resume.html'  target="_blank" rel="noopener noreferrer">
+              <a
+                href={Resume_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn"
+              >
                   <button className="w-[25vh] mt-3 bg-pink-600 text-white py-2 rounded-full hover:bg-pink-700 transition">
                     Download Resume
                   </button>
